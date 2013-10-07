@@ -1,0 +1,13 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "SelectionContent",
+        "designer|userClassName": "SelectionContent"
+    },
+    "designerId": "2443ebbb-fd61-4868-aeea-98e5bf09ffbf"
+}

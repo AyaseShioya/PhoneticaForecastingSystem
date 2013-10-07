@@ -1,0 +1,79 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "WorkforceAllocation"
+    },
+    "designerId": "04dd446d-8e30-48b6-952b-9915fea027ac",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "time",
+                "type": "int"
+            },
+            "designerId": "d924ddaa-4910-421c-a133-7f3fe5682588"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "na",
+                "type": "float"
+            },
+            "designerId": "dd35458b-9fa5-4945-a782-7a5b02ad0a4e"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "sl",
+                "type": "float"
+            },
+            "designerId": "4a289168-3b03-4fe2-869f-c6218aad22d1"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "qp",
+                "type": "float"
+            },
+            "designerId": "7bc59afa-46e2-4023-a140-ae359f0bd4c9"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "oo",
+                "type": "float"
+            },
+            "designerId": "d6c45dbc-6fb2-4a3e-ba10-d6e2515a6a1a"
+        }
+    ]
+}

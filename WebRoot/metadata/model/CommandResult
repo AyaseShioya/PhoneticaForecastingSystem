@@ -1,0 +1,27 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "CommandResult"
+    },
+    "designerId": "35491d05-603e-4a98-8ebf-6ce21490dd09",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "success",
+                "type": "string"
+            },
+            "designerId": "402be1c9-734e-4d2b-b0c3-1dfb50c6776b"
+        }
+    ]
+}

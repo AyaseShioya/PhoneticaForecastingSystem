@@ -1,0 +1,30 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "Configuration",
+        "storeId": "Configuration",
+        "designer|userClassName": "Configuration"
+    },
+    "designerId": "f2af8740-b353-4cd0-911d-b28db85c9c2f",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "timeout": 864000000,
+                "url": "service/ConfigurationMaintainer"
+            },
+            "designerId": "2e3e19c2-4316-4a7a-b4ce-e40458ec8261"
+        }
+    ]
+}

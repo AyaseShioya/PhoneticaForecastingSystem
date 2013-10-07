@@ -1,0 +1,30 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "model": "ErlangResult",
+        "storeId": "MyArrayStore5",
+        "designer|userClassName": "Erlang14"
+    },
+    "designerId": "2c61867f-1624-4608-bb94-2944ed26e5b9",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "timeout": 864000000,
+                "url": "service/DoAllocation"
+            },
+            "designerId": "38fad733-d4ae-46b9-99f0-2bd03342369b"
+        }
+    ]
+}

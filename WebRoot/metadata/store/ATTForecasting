@@ -1,0 +1,15 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "model": "ForecastingItem",
+        "storeId": "MyArrayStore",
+        "designer|userClassName": "ATTForecasting"
+    },
+    "designerId": "5cfb7eeb-b80f-4445-8e38-2631ebca9381"
+}

@@ -1,0 +1,19 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "ForecastType",
+        "designer|userClassName": "CombinationType",
+        "data": [
+            "[",
+            "    {\"typeID\": 1, \"typeName\": \"Service\"},",
+            "    {\"typeID\": 2, \"typeName\": \"Skillset\"}",
+            "]"
+        ]
+    },
+    "designerId": "8787af85-a36b-4c4c-b4af-6d3d61b1571a"
+}

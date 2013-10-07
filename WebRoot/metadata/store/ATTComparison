@@ -1,0 +1,15 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "model": "ComparisonItem",
+        "storeId": "ATTComparison",
+        "designer|userClassName": "ATTComparison"
+    },
+    "designerId": "4273e5a2-69ae-4540-aff9-127e3bbc7b23"
+}

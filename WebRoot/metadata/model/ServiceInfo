@@ -1,0 +1,80 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ServiceInfo"
+    },
+    "designerId": "2005bb98-61d6-45c8-8670-9a5f7d348282",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dateFormat": "",
+                "name": "lastoptimization",
+                "type": "string"
+            },
+            "designerId": "a8c68a5e-3c62-42ce-a161-f40b751bc2cc"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dateFormat": "",
+                "name": "lastTraining",
+                "type": "string"
+            },
+            "designerId": "4d4d21e1-ddd4-427e-9d53-940cdd15a935"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "priority",
+                "type": "int"
+            },
+            "designerId": "f37ae386-b667-4de8-bc78-8751aa83b18b"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name",
+                "type": "string"
+            },
+            "designerId": "c016c1f8-1e54-48e4-bc26-f06310899e62"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "content"
+            },
+            "designerId": "85340da9-037d-4b9d-8fe7-bcba732ea641"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "model": "ServiceInfo",
+        "storeId": "MyJsonStore",
+        "designer|userClassName": "ServiceInfo"
+    },
+    "designerId": "a0f01909-7252-4e99-a59d-74365af4f4e6",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "timeout": 864000000,
+                "url": "service/DoSelection"
+            },
+            "designerId": "24ca0d06-643e-4d60-97c3-a8765d2c5b66"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ForecastType"
+    },
+    "designerId": "323dc687-7eef-452a-92e6-8177de271f57",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "typeID",
+                "type": "int"
+            },
+            "designerId": "4d347140-f6d6-408e-b673-93a965f346d7"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "typeName",
+                "type": "string"
+            },
+            "designerId": "53c0599a-5b8e-42dd-b123-e86fadf174dd"
+        }
+    ]
+}

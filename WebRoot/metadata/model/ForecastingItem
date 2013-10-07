@@ -1,0 +1,53 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ForecastingItem"
+    },
+    "designerId": "97530cf4-5f7f-4979-93f9-1199b1fc9b55",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "time",
+                "type": "int"
+            },
+            "designerId": "923587d5-eac8-4e19-b5f7-2301061ba23f"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "fore",
+                "type": "float"
+            },
+            "designerId": "2f38dace-5b6d-4907-a83f-58a6e04957ee"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "aftercall",
+                "type": "float"
+            },
+            "designerId": "d9b0f7d9-56ad-49fc-919d-8f9959adf4f4"
+        }
+    ]
+}

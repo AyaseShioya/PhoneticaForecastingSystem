@@ -1,0 +1,30 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "model": "ForecastSelection",
+        "storeId": "selectionList",
+        "designer|userClassName": "SelectionList"
+    },
+    "designerId": "14be7a0d-f7e7-48b1-b8cd-3d80b07d02c6",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "timeout": 864000000,
+                "url": "service/GetSelectionList"
+            },
+            "designerId": "0be6408a-cb1f-46a2-8ee7-0e0ef0fa7051"
+        }
+    ]
+}

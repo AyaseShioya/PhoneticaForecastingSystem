@@ -1,0 +1,44 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "model": "ForecastingResult",
+        "storeId": "forecastingResult",
+        "designer|userClassName": "ForecastingResult"
+    },
+    "designerId": "e3efd06b-b555-4477-956d-60804e15ee38",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "timeout": 864000000,
+                "url": "service/DoForecasting"
+            },
+            "designerId": "4a386f89-d4ea-48ba-bc5c-b2e329d82a65",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "result"
+                    },
+                    "designerId": "f05c2bb0-d960-4889-b5f9-f2996a82d341"
+                }
+            ]
+        }
+    ]
+}

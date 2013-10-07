@@ -1,0 +1,118 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ErlangResult"
+    },
+    "designerId": "d9bfc8af-ea9b-474f-959d-486f3a7557a7",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "na",
+                "type": "float"
+            },
+            "designerId": "de323ba6-3b21-4fc9-899c-efd14ec1cb97"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "sl",
+                "type": "float"
+            },
+            "designerId": "b1dbe658-ac93-4f4e-8732-8fd7722fec45"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "qp",
+                "type": "float"
+            },
+            "designerId": "2a8239f6-1ac2-4aeb-9bb2-8f49955641cd"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "asa",
+                "type": "float"
+            },
+            "designerId": "b862b51e-e4e2-4fda-a46c-0ff41c3b4121"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "anrq",
+                "type": "float"
+            },
+            "designerId": "22f8ebcb-e694-44d9-99f4-945358536062"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "anrs",
+                "type": "float"
+            },
+            "designerId": "331df63b-5e77-4325-aee0-610f582ef773"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "arts",
+                "type": "float"
+            },
+            "designerId": "04602be1-bf26-4924-ac4a-0b345b27034b"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "oo",
+                "type": "float"
+            },
+            "designerId": "695d1276-82a0-402d-8fa3-a7704cdc137a"
+        }
+    ]
+}

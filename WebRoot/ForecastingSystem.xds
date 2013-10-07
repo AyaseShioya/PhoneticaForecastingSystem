@@ -1,0 +1,392 @@
+{
+    "name": "ForecastingSystem",
+    "settings": {
+        "spacesToIndent": 4,
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "urlPrefix": "http://127.0.0.1:8080/PhoneticaForecastingSystem",
+        "exportPath": "E:/新建文件夹",
+        "buildShouldOverwriteIndex": true
+    },
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 991,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "be496928-0121-43e8-b58e-0aa094475bfc": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "323dc687-7eef-452a-92e6-8177de271f57": {
+            "paths": [
+                "metadata/model/ForecastType",
+                "app/model/override/ForecastType.js",
+                "app/model/ForecastType.js"
+            ],
+            "className": "ForecastType"
+        },
+        "ce585f52-5cc7-4d00-9900-de224c0a943b": {
+            "paths": [
+                "metadata/store/TypeList",
+                "app/store/override/TypeList.js",
+                "app/store/TypeList.js"
+            ],
+            "className": "TypeList"
+        },
+        "14be7a0d-f7e7-48b1-b8cd-3d80b07d02c6": {
+            "paths": [
+                "metadata/store/SelectionList",
+                "app/store/override/SelectionList.js",
+                "app/store/SelectionList.js"
+            ],
+            "className": "SelectionList"
+        },
+        "d42909bc-5b30-4089-a339-9dc5ecd6f5c5": {
+            "paths": [
+                "metadata/model/ForecastSelection",
+                "app/model/override/ForecastSelection.js",
+                "app/model/ForecastSelection.js"
+            ],
+            "className": "ForecastSelection"
+        },
+        "e3efd06b-b555-4477-956d-60804e15ee38": {
+            "paths": [
+                "metadata/store/ForecastingResult",
+                "app/store/override/ForecastingResult.js",
+                "app/store/ForecastingResult.js"
+            ],
+            "className": "ForecastingResult"
+        },
+        "2005bb98-61d6-45c8-8670-9a5f7d348282": {
+            "paths": [
+                "metadata/model/ServiceInfo",
+                "app/model/override/ServiceInfo.js",
+                "app/model/ServiceInfo.js"
+            ],
+            "className": "ServiceInfo"
+        },
+        "97530cf4-5f7f-4979-93f9-1199b1fc9b55": {
+            "paths": [
+                "metadata/model/ForecastingItem",
+                "app/model/override/ForecastingItem.js",
+                "app/model/ForecastingItem.js"
+            ],
+            "className": "ForecastingItem"
+        },
+        "ad8857f7-fef9-420b-9d20-c4c6155928cb": {
+            "paths": [
+                "metadata/model/ComparisonItem",
+                "app/model/override/ComparisonItem.js",
+                "app/model/ComparisonItem.js"
+            ],
+            "className": "ComparisonItem"
+        },
+        "a0f01909-7252-4e99-a59d-74365af4f4e6": {
+            "paths": [
+                "metadata/store/ServiceInfo",
+                "app/store/override/ServiceInfo.js",
+                "app/store/ServiceInfo.js"
+            ],
+            "className": "ServiceInfo"
+        },
+        "7800f9db-6859-4f32-a988-da79b851fa8b": {
+            "paths": [
+                "metadata/model/ForecastingResult",
+                "app/model/override/ForecastingResult.js",
+                "app/model/ForecastingResult.js"
+            ],
+            "className": "ForecastingResult"
+        },
+        "f0977b09-8560-4c9b-9a2d-16555e7602f9": {
+            "paths": [
+                "metadata/store/TrafficForecasting",
+                "app/store/override/TrafficForecasting.js",
+                "app/store/TrafficForecasting.js"
+            ],
+            "className": "TrafficForecasting"
+        },
+        "5cfb7eeb-b80f-4445-8e38-2631ebca9381": {
+            "paths": [
+                "metadata/store/ATTForecasting",
+                "app/store/override/ATTForecasting.js",
+                "app/store/ATTForecasting.js"
+            ],
+            "className": "ATTForecasting"
+        },
+        "9adad795-b0ff-4ccd-8c24-db920b897bfc": {
+            "paths": [
+                "metadata/store/TrafficComparison",
+                "app/store/override/TrafficComparison.js",
+                "app/store/TrafficComparison.js"
+            ],
+            "className": "TrafficComparison"
+        },
+        "4273e5a2-69ae-4540-aff9-127e3bbc7b23": {
+            "paths": [
+                "metadata/store/ATTComparison",
+                "app/store/override/ATTComparison.js",
+                "app/store/ATTComparison.js"
+            ],
+            "className": "ATTComparison"
+        },
+        "44f9e2ff-0884-4b69-bee9-f36dea1c3e72": {
+            "paths": [
+                "metadata/store/Erlang8",
+                "app/store/override/Erlang8.js",
+                "app/store/Erlang8.js"
+            ],
+            "className": "Erlang8"
+        },
+        "d9bfc8af-ea9b-474f-959d-486f3a7557a7": {
+            "paths": [
+                "metadata/model/ErlangResult",
+                "app/model/override/ErlangResult.js",
+                "app/model/ErlangResult.js"
+            ],
+            "className": "ErlangResult"
+        },
+        "bb6d9bba-7c1a-4656-a894-c4630a06b8ff": {
+            "paths": [
+                "metadata/store/WorkforceAllocation",
+                "app/store/override/WorkforceAllocation.js",
+                "app/store/WorkforceAllocation.js"
+            ],
+            "className": "WorkforceAllocation"
+        },
+        "04dd446d-8e30-48b6-952b-9915fea027ac": {
+            "paths": [
+                "metadata/model/WorkforceAllocation",
+                "app/model/override/WorkforceAllocation.js",
+                "app/model/WorkforceAllocation.js"
+            ],
+            "className": "WorkforceAllocation"
+        },
+        "9700c9e5-298b-4c11-95e4-692ad99b2d97": {
+            "paths": [
+                "metadata/store/Erlang9",
+                "app/store/override/Erlang9.js",
+                "app/store/Erlang9.js"
+            ],
+            "className": "Erlang9"
+        },
+        "405ac4b7-2e60-47af-9915-aa9092f1c5e4": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "b4d058ea-a38e-43c0-bbd9-b34df0a5cac3": {
+            "paths": [
+                "metadata/model/SelectionContent",
+                "app/model/override/SelectionContent.js",
+                "app/model/SelectionContent.js"
+            ],
+            "className": "SelectionContent"
+        },
+        "2443ebbb-fd61-4868-aeea-98e5bf09ffbf": {
+            "paths": [
+                "metadata/store/SelectionContent",
+                "app/store/override/SelectionContent.js",
+                "app/store/SelectionContent.js"
+            ],
+            "className": "SelectionContent"
+        },
+        "203e5bb5-ae79-44b1-9de8-dd608df4be4e": {
+            "paths": [
+                "metadata/store/Erlang10",
+                "app/store/override/Erlang10.js",
+                "app/store/Erlang10.js"
+            ],
+            "className": "Erlang10"
+        },
+        "04b1df4d-9543-4132-9581-3e5b11eadc54": {
+            "paths": [
+                "metadata/store/Erlang11",
+                "app/store/override/Erlang11.js",
+                "app/store/Erlang11.js"
+            ],
+            "className": "Erlang11"
+        },
+        "a4d8dacc-47a0-4f5f-9344-9075ace0b089": {
+            "paths": [
+                "metadata/store/Erlang12",
+                "app/store/override/Erlang12.js",
+                "app/store/Erlang12.js"
+            ],
+            "className": "Erlang12"
+        },
+        "5a2c2eec-f917-4373-aa68-3887fdb8b923": {
+            "paths": [
+                "metadata/store/Erlang13",
+                "app/store/override/Erlang13.js",
+                "app/store/Erlang13.js"
+            ],
+            "className": "Erlang13"
+        },
+        "2c61867f-1624-4608-bb94-2944ed26e5b9": {
+            "paths": [
+                "metadata/store/Erlang14",
+                "app/store/override/Erlang14.js",
+                "app/store/Erlang14.js"
+            ],
+            "className": "Erlang14"
+        },
+        "07bcf11a-c9e6-4959-9fde-5be6aa861a7b": {
+            "paths": [
+                "metadata/store/Erlang15",
+                "app/store/override/Erlang15.js",
+                "app/store/Erlang15.js"
+            ],
+            "className": "Erlang15"
+        },
+        "01ddfa59-5a91-4f2d-85eb-759e3550198f": {
+            "paths": [
+                "metadata/store/Erlang16",
+                "app/store/override/Erlang16.js",
+                "app/store/Erlang16.js"
+            ],
+            "className": "Erlang16"
+        },
+        "53259a9c-5d41-4794-9042-9d6697992f9c": {
+            "paths": [
+                "metadata/store/Erlang17",
+                "app/store/override/Erlang17.js",
+                "app/store/Erlang17.js"
+            ],
+            "className": "Erlang17"
+        },
+        "5875119e-5db7-4a89-a168-2b27a39114f2": {
+            "paths": [
+                "metadata/store/Erlang18",
+                "app/store/override/Erlang18.js",
+                "app/store/Erlang18.js"
+            ],
+            "className": "Erlang18"
+        },
+        "06658c73-7678-4c9d-a836-44efad1bdd29": {
+            "paths": [
+                "metadata/store/Erlang19",
+                "app/store/override/Erlang19.js",
+                "app/store/Erlang19.js"
+            ],
+            "className": "Erlang19"
+        },
+        "35491d05-603e-4a98-8ebf-6ce21490dd09": {
+            "paths": [
+                "metadata/model/CommandResult",
+                "app/model/override/CommandResult.js",
+                "app/model/CommandResult.js"
+            ],
+            "className": "CommandResult"
+        },
+        "60d8894f-2916-4133-b3d1-c4310144d82b": {
+            "paths": [
+                "metadata/store/OptionalSelection",
+                "app/store/override/OptionalSelection.js",
+                "app/store/OptionalSelection.js"
+            ],
+            "className": "OptionalSelection"
+        },
+        "54908210-ab3c-4be6-b885-4c4c6d3b954f": {
+            "paths": [
+                "metadata/store/CombinationSelection",
+                "app/store/override/CombinationSelection.js",
+                "app/store/CombinationSelection.js"
+            ],
+            "className": "CombinationSelection"
+        },
+        "8787af85-a36b-4c4c-b4af-6d3d61b1571a": {
+            "paths": [
+                "metadata/store/CombinationType",
+                "app/store/override/CombinationType.js",
+                "app/store/CombinationType.js"
+            ],
+            "className": "CombinationType"
+        },
+        "309f4893-a7bd-4a57-9d66-9f83099bfcec": {
+            "paths": [
+                "metadata/store/CommandResult",
+                "app/store/override/CommandResult.js",
+                "app/store/CommandResult.js"
+            ],
+            "className": "CommandResult"
+        },
+        "f2af8740-b353-4cd0-911d-b28db85c9c2f": {
+            "paths": [
+                "metadata/store/Configuration",
+                "app/store/override/Configuration.js",
+                "app/store/Configuration.js"
+            ],
+            "className": "Configuration"
+        },
+        "449cd23b-bfd0-4be0-992a-a5dc8a39922f": {
+            "paths": [
+                "metadata/model/Configuration",
+                "app/model/override/Configuration.js",
+                "app/model/Configuration.js"
+            ],
+            "className": "Configuration"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "405ac4b7-2e60-47af-9915-aa9092f1c5e4"
+        ],
+        "store": [
+            "ce585f52-5cc7-4d00-9900-de224c0a943b",
+            "14be7a0d-f7e7-48b1-b8cd-3d80b07d02c6",
+            "a0f01909-7252-4e99-a59d-74365af4f4e6",
+            "2443ebbb-fd61-4868-aeea-98e5bf09ffbf",
+            "e3efd06b-b555-4477-956d-60804e15ee38",
+            "f0977b09-8560-4c9b-9a2d-16555e7602f9",
+            "5cfb7eeb-b80f-4445-8e38-2631ebca9381",
+            "9adad795-b0ff-4ccd-8c24-db920b897bfc",
+            "4273e5a2-69ae-4540-aff9-127e3bbc7b23",
+            "44f9e2ff-0884-4b69-bee9-f36dea1c3e72",
+            "9700c9e5-298b-4c11-95e4-692ad99b2d97",
+            "203e5bb5-ae79-44b1-9de8-dd608df4be4e",
+            "04b1df4d-9543-4132-9581-3e5b11eadc54",
+            "a4d8dacc-47a0-4f5f-9344-9075ace0b089",
+            "5a2c2eec-f917-4373-aa68-3887fdb8b923",
+            "2c61867f-1624-4608-bb94-2944ed26e5b9",
+            "07bcf11a-c9e6-4959-9fde-5be6aa861a7b",
+            "01ddfa59-5a91-4f2d-85eb-759e3550198f",
+            "53259a9c-5d41-4794-9042-9d6697992f9c",
+            "5875119e-5db7-4a89-a168-2b27a39114f2",
+            "06658c73-7678-4c9d-a836-44efad1bdd29",
+            "bb6d9bba-7c1a-4656-a894-c4630a06b8ff",
+            "60d8894f-2916-4133-b3d1-c4310144d82b",
+            "54908210-ab3c-4be6-b885-4c4c6d3b954f",
+            "8787af85-a36b-4c4c-b4af-6d3d61b1571a",
+            "309f4893-a7bd-4a57-9d66-9f83099bfcec",
+            "f2af8740-b353-4cd0-911d-b28db85c9c2f"
+        ],
+        "controller": [],
+        "model": [
+            "323dc687-7eef-452a-92e6-8177de271f57",
+            "d42909bc-5b30-4089-a339-9dc5ecd6f5c5",
+            "2005bb98-61d6-45c8-8670-9a5f7d348282",
+            "b4d058ea-a38e-43c0-bbd9-b34df0a5cac3",
+            "97530cf4-5f7f-4979-93f9-1199b1fc9b55",
+            "ad8857f7-fef9-420b-9d20-c4c6155928cb",
+            "7800f9db-6859-4f32-a988-da79b851fa8b",
+            "d9bfc8af-ea9b-474f-959d-486f3a7557a7",
+            "04dd446d-8e30-48b6-952b-9915fea027ac",
+            "35491d05-603e-4a98-8ebf-6ce21490dd09",
+            "449cd23b-bfd0-4be0-992a-a5dc8a39922f"
+        ],
+        "resource": [
+            "be496928-0121-43e8-b58e-0aa094475bfc"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

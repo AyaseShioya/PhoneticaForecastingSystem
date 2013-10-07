@@ -1,0 +1,28 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "CommandResult",
+        "storeId": "CommandResult",
+        "designer|userClassName": "CommandResult"
+    },
+    "designerId": "309f4893-a7bd-4a57-9d66-9f83099bfcec",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "timeout": 864000000
+            },
+            "designerId": "b522d801-422a-4ba3-9846-b6dd3be9af0e"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "ForecastSelection",
+        "storeId": "CombinationSelection",
+        "designer|userClassName": "CombinationSelection"
+    },
+    "designerId": "54908210-ab3c-4be6-b885-4c4c6d3b954f"
+}

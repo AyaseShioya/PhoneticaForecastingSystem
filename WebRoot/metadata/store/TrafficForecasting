@@ -1,0 +1,15 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "model": "ForecastingItem",
+        "storeId": "TrafficForecasting",
+        "designer|userClassName": "TrafficForecasting"
+    },
+    "designerId": "f0977b09-8560-4c9b-9a2d-16555e7602f9"
+}

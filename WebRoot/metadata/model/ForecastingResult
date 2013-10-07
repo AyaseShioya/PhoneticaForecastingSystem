@@ -1,0 +1,62 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ForecastingResult"
+    },
+    "designerId": "7800f9db-6859-4f32-a988-da79b851fa8b",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "trafficForecasting"
+            },
+            "designerId": "00132989-0697-4d17-bb82-fd636a19520b"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "trafficComparison"
+            },
+            "designerId": "be4af1c3-fd52-44f4-aa39-69d7e6a76824"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "attForecasting"
+            },
+            "designerId": "f2a523fd-db70-42fd-83eb-4119cbdeb8b9"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "attComparison"
+            },
+            "designerId": "a3b1bcdf-4224-48b1-8e1b-8ee56faf4cf6"
+        }
+    ]
+}

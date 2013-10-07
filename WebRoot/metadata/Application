@@ -1,0 +1,57 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "ForecastType",
+            "ForecastSelection",
+            "ServiceInfo",
+            "ComparisonItem",
+            "ForecastingResult",
+            "ErlangResult",
+            "WorkforceAllocation",
+            "SelectionContent",
+            "CommandResult",
+            "Configuration"
+        ],
+        "stores": [
+            "TypeList",
+            "SelectionList",
+            "ForecastingResult",
+            "ServiceInfo",
+            "TrafficForecasting",
+            "ATTForecasting",
+            "TrafficComparison",
+            "ATTComparison",
+            "Erlang8",
+            "WorkforceAllocation",
+            "Erlang9",
+            "SelectionContent",
+            "Erlang10",
+            "Erlang11",
+            "Erlang12",
+            "Erlang13",
+            "Erlang14",
+            "Erlang15",
+            "Erlang16",
+            "Erlang17",
+            "Erlang18",
+            "Erlang19",
+            "OptionalSelection",
+            "CombinationSelection",
+            "CombinationType",
+            "CommandResult",
+            "Configuration"
+        ],
+        "views": [
+            "MyViewport"
+        ],
+        "autoCreateViewport": true,
+        "name": "ForecastingSystem"
+    },
+    "designerId": "application"
+}

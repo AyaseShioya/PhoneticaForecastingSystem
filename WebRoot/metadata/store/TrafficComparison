@@ -1,0 +1,15 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "model": "ComparisonItem",
+        "storeId": "TrafficComparison",
+        "designer|userClassName": "TrafficComparison"
+    },
+    "designerId": "9adad795-b0ff-4ccd-8c24-db920b897bfc"
+}

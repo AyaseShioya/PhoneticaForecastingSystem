@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>PhoneticaForecastingSystem</display-name>
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>JAX-RS Servlet</servlet-name>
+    <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetSelectionList</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.GetSelectionList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoSelection</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.DoSelection</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoForecasting</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.DoForecasting</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OptimizeThis</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.OptimizeThis</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TrainThis</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.TrainThis</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoAllocation</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.DoAllocation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatePriority</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.UpdatePriority</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetOptionalList</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.GetOptionalList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CreateCombination</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.CreateCombination</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModelMaintainer</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.ModelMaintainer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ConfigurationMaintainer</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.ConfigurationMaintainer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>unipv.forecasting.servlet.Delete</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>JAX-RS Servlet</servlet-name>
+    <url-pattern>/jaxrs/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSelectionList</servlet-name>
+    <url-pattern>/service/GetSelectionList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoSelection</servlet-name>
+    <url-pattern>/service/DoSelection</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoForecasting</servlet-name>
+    <url-pattern>/service/DoForecasting</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OptimizeThis</servlet-name>
+    <url-pattern>/service/OptimizeThis</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TrainThis</servlet-name>
+    <url-pattern>/service/TrainThis</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoAllocation</servlet-name>
+    <url-pattern>/service/DoAllocation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatePriority</servlet-name>
+    <url-pattern>/service/UpdatePriority</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetOptionalList</servlet-name>
+    <url-pattern>/service/GetOptionalList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CreateCombination</servlet-name>
+    <url-pattern>/service/CreateCombination</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModelMaintainer</servlet-name>
+    <url-pattern>/service/ModelMaintainer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfigurationMaintainer</servlet-name>
+    <url-pattern>/service/ConfigurationMaintainer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/service/Delete</url-pattern>
+  </servlet-mapping>
+    <listener>
+        <listener-class>unipv.forecasting.servlet.TaskTimer</listener-class>
+    </listener>
+    <welcome-file-list>
+        <welcome-file>app.html</welcome-file>
+    </welcome-file-list>
+</web-app>

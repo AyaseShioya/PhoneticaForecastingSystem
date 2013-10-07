@@ -1,0 +1,39 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "ForecastType",
+        "storeId": "typeList",
+        "designer|userClassName": "TypeList",
+        "data": [
+            "[",
+            "    {typeID : 1, typeName : 'Available Service'},",
+            "\t{typeID : 2, typeName : 'Available Skillset'},",
+            "    {typeID : 3, typeName : 'Available Service Combination'},",
+            "    {typeID : 4, typeName : 'Available Skillset Combination'},",
+            "    {typeID : 5, typeName : 'Service With Priority 1'},",
+            "    {typeID : 6, typeName : 'Service With Priority 2'},",
+            "    {typeID : 7, typeName : 'Service With Priority 3'},",
+            "    {typeID : 8, typeName : 'Skillset With Priority 1'},",
+            "    {typeID : 9, typeName : 'Skillset With Priority 2'},",
+            "    {typeID : 10, typeName : 'Skillset With Priority 3'},",
+            "    {typeID : 11, typeName : 'Service Combination With Priority 1'},",
+            "    {typeID : 12, typeName : 'Service Combination With Priority 2'},",
+            "    {typeID : 13, typeName : 'Service Combination With Priority 3'},",
+            "    {typeID : 14, typeName : 'Skillset Combination With Priority 1'},",
+            "    {typeID : 15, typeName : 'Skillset Combination With Priority 2'},",
+            "    {typeID : 16, typeName : 'Skillset Combination With Priority 3'},",
+            "    {typeID : 17, typeName : 'Disabled Service'},",
+            "\t{typeID : 18, typeName : 'Disabled Skillset'},",
+            "    {typeID : 19, typeName : 'Disabled Service Combination'},",
+            "    {typeID : 20, typeName : 'Disabled Skillset Combination'}",
+            "]"
+        ]
+    },
+    "designerId": "ce585f52-5cc7-4d00-9900-de224c0a943b"
+}
